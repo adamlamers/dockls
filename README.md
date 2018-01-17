@@ -2,6 +2,10 @@
 
 dockls is a tool for viewing private docker registries configured behind token authentication
 
+## Installation
+
+`pip install git+https://github.com/adamlamers/dockls`
+
 ## Usage
 
 `dockls login <repository URL>`
