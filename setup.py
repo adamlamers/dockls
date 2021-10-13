@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
         name='dockls',
-        version='1.5',
+        version='1.6',
         description='CLI Client for interacting with docker registry v2 configured with token auth',
         url='',
         author='Adam Lamers',

@@ -92,7 +92,7 @@ class DockerRegistry(object):
                     params=params)
 
             if response.status_code == 200:
-                self.token = response.json()['token']
+                self.token = response.json()['access_token']
                 return True
 
             return False
